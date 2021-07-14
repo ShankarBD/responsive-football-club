@@ -134,14 +134,19 @@ figure figcaption {
 
 /* contact section css */
 
-#contact{
-   padding: 30px 0;
+.contact-section{
+   margin-top: 30px;
+   padding: 20px 30px;
+   box-sizing: border-box;
+   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+   padding: 30px;
    box-sizing: border-box;
 }
 
 .section-header{
    font-size: 35px;
    margin: 0 auto;
+   color: cornflowerblue;
 }
 
 input{
@@ -158,6 +163,19 @@ textarea{
    background:#cec7c785;
 }
 
+.aim-section{
+   margin-top: 30px;
+   padding: 20px 30px;
+   box-sizing: border-box;
+   box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+   margin-left:20px;
+}
+.aim-section p{
+   text-align: justify;
+}  
+.flexible{
+   display: flex;
+}
 /*---- footer css ----*/
 
 footer {
